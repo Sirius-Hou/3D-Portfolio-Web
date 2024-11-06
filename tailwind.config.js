@@ -20,7 +20,9 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        // "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/genji2.jpg')",
+        // "hero-pattern": "url('/src/assets/testbg.jpg')",
       },
 
       gradientColorStops: theme => ({

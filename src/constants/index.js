@@ -19,6 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
+  christie,
+  ford,
+  bhvr,
+  uw,
   carrent,
   jobit,
   tripguide,
@@ -130,7 +134,7 @@ const experiences = [
   {
     title: "Application Software Developer (C++)",
     company_name: "Christie Digital Systems",
-    icon: starbucks,
+    icon: christie,
     iconBg: "#383E56",
     date: "Sep 2024 ~ Present",
     points: [
@@ -141,7 +145,7 @@ const experiences = [
   {
     title: "Software Developer (Data Collection Platform)",
     company_name: "Ford Company of Canada Limited",
-    icon: tesla,
+    icon: ford,
     iconBg: "#E6DEDD",
     date: "Jan 2024 ~ Apr 2024",
     points: [
@@ -153,7 +157,7 @@ const experiences = [
   {
     title: "Software Engineer (Unreal Engine Tool Dev)",
     company_name: "Behaviour Interactive",
-    icon: shopify,
+    icon: bhvr,
     iconBg: "#383E56",
     date: "May 2023 ~ Aug 2023",
     points: [
@@ -164,7 +168,7 @@ const experiences = [
   {
     title: "Instructional Support Assistant",
     company_name: "University of Waterloo",
-    icon: meta,
+    icon: uw,
     iconBg: "#E6DEDD",
     date: "Aug 2022 ~ Dec 2022",
     points: [
@@ -265,6 +269,86 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+  },
+];
+
+
+import CplusplusOriginal from "react-devicons/cplusplus/original";
+import COriginal from "react-devicons/c/original";
+import CsharpOriginal from "react-devicons/csharp/original";
+import PythonOriginalWordmark from "react-devicons/python/original-wordmark";
+import KotlinOriginalWordmark from "react-devicons/kotlin/original-wordmark";
+import JavaOriginalWordmark from "react-devicons/java/original-wordmark";
+import TypescriptOriginal from "react-devicons/typescript/original";
+import JavascriptOriginal from "react-devicons/javascript/original";
+import MarkdownOriginal from "react-devicons/markdown/original";
+import Html5Original from "react-devicons/html5/original";
+import Css3Original from "react-devicons/css3/original";
+import ReactOriginalWordmark from "react-devicons/react/original-wordmark";
+import NodejsOriginalWordmark from "react-devicons/nodejs/original-wordmark";
+import NextjsOriginal from "react-devicons/nextjs/original";
+import BootstrapOriginal from "react-devicons/bootstrap/original";
+import MaterialuiOriginal from "react-devicons/materialui/original";
+import FoundationOriginal from "react-devicons/foundation/original";
+import UnrealengineOriginal from "react-devicons/unrealengine/original";
+import UnityOriginal from "react-devicons/unity/original";
+import MatlabOriginal from "react-devicons/matlab/original";
+import AndroidstudioOriginal from "react-devicons/androidstudio/original";
+import GitOriginal from "react-devicons/git/original";
+import GithubOriginal from "react-devicons/github/original";
+import JiraOriginal from "react-devicons/jira/original";
+import VscodeOriginal from "react-devicons/vscode/original";
+import VisualstudioPlain from "react-devicons/visualstudio/plain";
+import DockerOriginal from "react-devicons/docker/original";
+import LatexOriginal from "react-devicons/latex/original";
+import FigmaOriginal from "react-devicons/figma/original";
+import CanvaOriginal from "react-devicons/canva/original";
+
+export const skills = [
+  {
+    category: "Programming Languages",
+    skills: [
+      { name: "C++", icon: CplusplusOriginal },
+      { name: "C", icon: COriginal },
+      { name: "C#", icon: CsharpOriginal },
+      { name: "Python", icon: PythonOriginalWordmark },
+      { name: "Kotlin", icon: KotlinOriginalWordmark },
+      { name: "Java", icon: JavaOriginalWordmark },
+      { name: "TypeScript", icon: TypescriptOriginal },
+      { name: "JavaScript", icon: JavascriptOriginal },
+      { name: "Markdown", icon: MarkdownOriginal },
+      { name: "HTML", icon: Html5Original },
+      { name: "CSS", icon: Css3Original },
+    ],
+  },
+  {
+    category: "Frameworks & Libraries",
+    skills: [
+      { name: "React", icon: ReactOriginalWordmark },
+      { name: "Node.js", icon: NodejsOriginalWordmark },
+      { name: "Next.js", icon: NextjsOriginal },
+      { name: "Bootstrap", icon: BootstrapOriginal },
+      { name: "Material UI", icon: MaterialuiOriginal },
+      { name: "Foundation", icon: FoundationOriginal },
+    ],
+  },
+  {
+    category: "Dev & Design Tools & Platforms",
+    skills: [
+      { name: "Unreal Engine", icon: UnrealengineOriginal },
+      { name: "Unity", icon: UnityOriginal },
+      { name: "Matlab", icon: MatlabOriginal },
+      { name: "Android Studio", icon: AndroidstudioOriginal },
+      { name: "Git", icon: GitOriginal },
+      { name: "GitHub", icon: GithubOriginal },
+      { name: "Jira", icon: JiraOriginal },
+      { name: "VS Code", icon: VscodeOriginal },
+      { name: "Visual Studio", icon: VisualstudioPlain },
+      { name: "Docker", icon: DockerOriginal },
+      { name: "LaTeX", icon: LatexOriginal },
+      { name: "Figma", icon: FigmaOriginal },
+      { name: "Canva", icon: CanvaOriginal },
+    ],
   },
 ];
 
