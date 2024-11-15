@@ -33,9 +33,15 @@ import ford from "./company/ford.svg";
 import bhvr from "./company/Behaviour_Interactive-Logo.wine.svg";
 import uw from "./company/UniversityOfWaterloo_logo_vert_rgb.png";
 
+// Project Images
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import CC3K from "./projects/CC3K.png";
+import UWCS from "./projects/UWCS.png";
+import VR from "./projects/VR.png";
+import WLP4 from "./projects/WLP4.png";
+import YADA from "./projects/YADA.png";
 
 export {
   logo,
@@ -70,4 +76,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  CC3K,
+  UWCS,
+  VR,
+  WLP4,
+  YADA,
 };

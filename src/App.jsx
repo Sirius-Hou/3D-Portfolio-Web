@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Skills, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Skills, Works, StarsCanvas, Projects } from "./components";
 import ParticleBackground from "./components/ParticleBackground";
 
 const App = () => {
@@ -18,7 +18,8 @@ const App = () => {
         <Skills />
         {/* <Tech /> */}
         <Works />
-        <Feedbacks />
+        <Projects />
+        {/* <Feedbacks /> */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />

@@ -27,6 +27,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  CC3K,
+  UWCS,
+  VR,
+  WLP4,
+  YADA,
 } from "../assets";
 
 export const navLinks = [
@@ -208,69 +213,96 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "UW – Research Assistant (Around Ear Gestures for VR Locomotion)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      "Collaborated with Prof. Jian Zhao to design and implement a VR game in Unity with mazes and interactable objects to test around-ear bare-hand gestures for VR locomotion, improving accessibility for seated and lower-limb disabled users.",
+    modalContent: [
+      "Collaborated with Prof. Jian Zhao to design and implement a VR game in Unity with mazes and interactable objects to test around-ear bare-hand gestures for VR locomotion.",
+      "Improved accessibility for seated and lower-limb disabled users.",
+      "Programmed game mechanics and interaction logic in C#, enabling seamless simultaneous locomotion and object manipulation.",
+      "Achieved a ~30% increase in task completion efficiency compared to traditional controller-based methods.",
     ],
-    image: carrent,
+    tags: [
+      { name: "VR", color: "blue-text-gradient" },
+      { name: "Unity", color: "green-text-gradient" },
+      { name: "C#", color: "pink-text-gradient" },
+      { name: "Human-Computer Interaction", color: "orange-text-gradient" },
+    ],
+    image: VR,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Collaborative Whiteboard Android App (YADA)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      "Used Kotlin and Jetpack Compose in Android Studio to design and build a responsive Android whiteboard App in a team of 4, supporting real-time, low-latency collaboration, allowing multiple users to draw and interact on the whiteboard simultaneously.",
+    modalContent: [
+      "Used Kotlin and Jetpack Compose in Android Studio to design and build a responsive Android whiteboard App in a team of 4.",
+      "Supported real-time, low-latency collaboration, allowing multiple users to draw and interact on the whiteboard simultaneously.",
+      "Implemented dynamic drawing features including pen, eraser, and shape tools with undo/redo functionality and real-time rendering.",
     ],
-    image: jobit,
+    tags: [
+      { name: "Android Studio", color: "blue-text-gradient" },
+      { name: "Kotlin", color: "green-text-gradient" },
+      { name: "Jetpack Compose", color: "pink-text-gradient" },
+    ],
+    image: YADA,
+    source_code_link: "https://git.uwaterloo.ca/s26nadee/cs346-project.git",
+  },
+  {
+    name: "The Game of ChamberCrawler3000+ (CC3K+)",
+    description:
+      "Enhanced gameplay interaction by implementing Observer and Decorator Design Patterns, adding key features such as NPC combat, potion usage, merchant trading, and prop equipping.",
+    modalContent: [
+      "Built the game in C++ with OOP, leveraged smart pointers and STL for efficient memory management and dynamic gameplay logic.",
+      "Enhanced gameplay interaction by implementing Observer and Decorator Design Patterns, adding key features such as NPC combat, potion usage, merchant trading, and prop equipping.",
+      "Elevated the gaming and visual experience by implementing a series of 'cheat codes' via C++ macros and a colored text display UI.",
+    ],
+    tags: [
+      { name: "C++", color: "blue-text-gradient" },
+      { name: "Object-Oriented Programming", color: "green-text-gradient" },
+      { name: "Observer & Decorator Design Pattern", color: "pink-text-gradient" },
+    ],
+    image: CC3K,
+    source_code_link: "https://github.com/Sirius-Hou/CC3K",
+  },
+  {
+    name: "UW Course Scheduler (UWCS)",
+    description:
+      "Developed a smart scheduling agent for UW students using Python, leveraging Selenium and Requests to extract real-time class data and BeautifulSoup for analysis; Adopted by 20+ users with 50+ successfully generated schedules.",
+    modalContent: [
+      "Developed a smart scheduling agent for UW students using Python.",
+      "Leveraged Selenium and Requests to extract real-time class data and BeautifulSoup for analysis.",
+      "Adopted by 20+ users with 50+ successfully generated schedules.",
+      "Combined a conflict-free scheduling algorithm with OpenAI GPT-3.5 API integration for personalized schedule generation.",
+      "Supported real-time editing and GUI calendar display, significantly improving user experience and simplifying course selection.",
+    ],
+    tags: [
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Selenium", color: "green-text-gradient" },
+      { name: "Requests", color: "orange-text-gradient" },
+      { name: "OpenAI API", color: "pink-text-gradient" },
+    ],
+    image: UWCS,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "WLP4 (Simplified C Language) Compiler Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      "Programmed a full-featured compiler for WLP4 using C++ and a simplified Maximal Munch algorithm for lexical analysis.",
+    modalContent: [
+      "Programmed a full-featured compiler for WLP4 using C++ and a simplified Maximal Munch algorithm for lexical analysis.",
+      "Implemented advanced features such as nested procedures and closures while conducting context-sensitive semantic analysis.",
+      "Enhanced runtime performance via in-line procedure substitution and constant folder and propagation optimizations.",
     ],
-    image: tripguide,
+    tags: [
+      { name: "Compiler", color: "blue-text-gradient" },
+      { name: "C++", color: "green-text-gradient" },
+    ],
+    image: WLP4,
     source_code_link: "https://github.com/",
   },
 ];
+
 
 
 import CplusplusOriginal from "react-devicons/cplusplus/original";

@@ -1,4 +1,5 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+// import Hero from "./Hero backup";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
@@ -9,6 +10,13 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+// import Projects from "./Projects";
+
+import Chip from "./util/Chip";
+import SectionHeader from "./util/SectionHeader";
+import Reveal from './util/Reveal';
+
+import Projects from './projects/Projects';
 
 
 export {
@@ -25,5 +33,10 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  Projects,
+  Chip,
+  SectionHeader,
+  Reveal,
+
 };
