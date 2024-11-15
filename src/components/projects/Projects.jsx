@@ -7,7 +7,7 @@ import { projects } from "../../constants";
 const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+      <SectionHeader title="Projects" dir="l" />
 
       <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
         {projects.map((project, index) => (
