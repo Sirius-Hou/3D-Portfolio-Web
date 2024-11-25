@@ -59,20 +59,35 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Portfolio</span>
           </p>
         </Link>
-
+  
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                hovered === nav.title ? "text-react-blue" : "text-secondary"
+                active === nav.title ? "text-react-blue" : "text-secondary"
               } hover:text-react-blue text-[18px] font-medium cursor-pointer relative`}
               onMouseEnter={() => setHovered(nav.title)}
               onMouseLeave={() => setHovered(null)}
             >
-              <a href={`#${nav.id}`} className="flex items-center">
+              <Link
+                to={nav.path}
+                className="flex items-center"
+                onClick={() => {
+                  setActive(nav.title);
+                  if (nav.path.startsWith("/#")) {
+                    const sectionId = nav.path.substring(2);
+                    const element = document.getElementById(sectionId);
+                    if (element) element.scrollIntoView({ behavior: "smooth" });
+                  } else {
+                    window.scrollTo(0, 0);
+                  }
+                }}
+              >
                 {React.cloneElement(icons[nav.title], {
-                  className: `${hovered === nav.title ? "text-react-blue" : "text-secondary"} mr-2`
+                  className: `${
+                    hovered === nav.title ? "text-react-blue" : "text-secondary"
+                  } mr-2`,
                 })}
                 {nav.title}
                 <span
@@ -80,11 +95,11 @@ const Navbar = () => {
                     hovered === nav.title ? "w-full" : "w-0"
                   }`}
                 ></span>
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
-
+  
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
@@ -92,7 +107,7 @@ const Navbar = () => {
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
-
+  
           <div
             className={`${
               !toggle ? "hidden" : "flex"
@@ -107,16 +122,29 @@ const Navbar = () => {
                   }`}
                   onMouseEnter={() => setHovered(nav.title)}
                   onMouseLeave={() => setHovered(null)}
-                  onClick={() => {
-                    setToggle(!toggle);
-                  }}
                 >
-                  <a href={`#${nav.id}`} className="flex items-center">
+                  <Link
+                    to={nav.path}
+                    className="flex items-center"
+                    onClick={() => {
+                      setToggle(false);
+                      setActive(nav.title);
+                      if (nav.path.startsWith("/#")) {
+                        const sectionId = nav.path.substring(2);
+                        const element = document.getElementById(sectionId);
+                        if (element) element.scrollIntoView({ behavior: "smooth" });
+                      }
+                    }}
+                  >
                     {React.cloneElement(icons[nav.title], {
-                      className: `${hovered === nav.title ? "text-react-blue" : "text-secondary"} mr-2`
+                      className: `${
+                        hovered === nav.title
+                          ? "text-react-blue"
+                          : "text-secondary"
+                      } mr-2`,
                     })}
                     {nav.title}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -125,6 +153,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
+  
 };
 
 export default Navbar;

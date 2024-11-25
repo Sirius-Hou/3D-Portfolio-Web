@@ -64,7 +64,7 @@ const Project = ({
               width: hovered ? "90%" : "88%",
               rotate: hovered ? "2deg" : "0deg",
             }}
-            className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2  transition-all rounded"
+            className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[20px] transition-all rounded"
           />
         </div>
 

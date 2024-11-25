@@ -34,32 +34,43 @@ import {
   YADA,
 } from "../assets";
 
+// export const navLinks = [
+//   {
+//     id: "about",
+//     title: "About",
+//   },
+//   {
+//     id: "work",
+//     title: "Work",
+//   },
+//   {
+//     id: "projects",
+//     title: "Projects",
+//   },
+//   {
+//     id: "contact",
+//     title: "Contact",
+//   },
+//   {
+//     id: "resume",
+//     title: "Resume",
+//   },
+//   {
+//     id: "photography",
+//     title: "Photography",
+//   },
+// ];
+
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
-  {
-    id: "projects",
-    title: "Projects",
-  },
-  {
-    id: "resume",
-    title: "Resume",
-  },
-  {
-    id: "photography",
-    title: "Photography",
-  },
+  { id: "home", title: "Home", path: "/" },
+  { id: "about", title: "About", path: "/#about" },
+  { id: "work", title: "Work", path: "/#work" },
+  { id: "projects", title: "Projects", path: "/#projects" },
+  { id: "contact", title: "Contact", path: "/#contact" },
+  { id: "resume", title: "Resume", path: "/resume" },
+  { id: "photography", title: "Photography", path: "/photography" }
 ];
+
 
 const services = [
   {

@@ -1,4 +1,7 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+
+import Preloader from './Preloader/Pre';
+
 // import Hero from "./Hero backup";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
@@ -18,8 +21,14 @@ import Reveal from './util/Reveal';
 
 import Projects from './projects/Projects';
 
+import Resume from './Resume';
+
+import ScrollToSection from './util/ScrollToSection';
+import ScrollToTop from './util/ScrollToTop';
+
 
 export {
+  Preloader,
   Hero,
   Navbar,
   About,
@@ -35,8 +44,13 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Projects,
+  Resume,
+
   Chip,
   SectionHeader,
   Reveal,
+
+  ScrollToSection,
+  ScrollToTop
 
 };
