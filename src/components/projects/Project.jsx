@@ -110,14 +110,14 @@ const Project = ({
           {/* Project Description */}
           <Reveal>
             <p className="text-zinc-300 leading-relaxed">
-              {description}{" "}
-              <span
-                className="inline-block text-sm text-indigo-300 cursor-pointer"
-                onClick={() => setIsOpen(true)}
-              >
-                Learn more {">"}
-              </span>
+              {description}
             </p>
+            <span
+              className="inline-block text-sm text-indigo-300 cursor-pointer"
+              onClick={() => setIsOpen(true)}
+            >
+              Learn more {">"}
+            </span>
           </Reveal>
         </div>
       </motion.div>

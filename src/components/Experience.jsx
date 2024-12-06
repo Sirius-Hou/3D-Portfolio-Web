@@ -27,7 +27,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[80%] h-[80%] object-contain'
+            className='w-[100%] h-[100%] object-contain'
           />
         </div>
       }
@@ -59,7 +59,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant(0)}>
         <p className={`${styles.sectionSubText} text-center`}>
           My Career Path
         </p>

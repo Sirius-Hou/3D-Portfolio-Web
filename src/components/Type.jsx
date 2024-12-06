@@ -7,14 +7,15 @@ function Type() {
       options={{
         strings: [
           "Software Developer",
-          "Front-end Developer",
-          "Gamer",
-          "UI/UX Designer",
+          "Game Programmer",
+          "Full-Stack Developer",
+          "VR Developer",
         ],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
-        wrapperClassName: "custom-typewriter",
+        // wrapperClassName: "custom-typewriter",
+        wrapperClassName: "bg-gradient-to-br from-[#3465eb] to-[#e64555] bg-clip-text text-transparent",
       }}
     />
   );

@@ -46,7 +46,7 @@ const Resume = () => {
         rel="noopener noreferrer"
         className="flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary-dark text-white font-bold rounded-md transition-colors duration-300"
       >
-        <AiOutlineDownload /> Download CV
+        <AiOutlineDownload /> Download Resume
       </a>
     </div>
   );

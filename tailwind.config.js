@@ -26,6 +26,7 @@ module.exports = {
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        protest: ["Protest Revolution", "sans-serif"],
       },
       fontSize: {
         "2xl": "32px",

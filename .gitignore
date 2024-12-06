@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+image_file_name_converter
+image_converter
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -74,19 +74,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Programmer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full-Stack Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "VR Developer",
     icon: creator,
   },
 ];
@@ -333,6 +333,7 @@ import NextjsOriginal from "react-devicons/nextjs/original";
 import BootstrapOriginal from "react-devicons/bootstrap/original";
 import MaterialuiOriginal from "react-devicons/materialui/original";
 import FoundationOriginal from "react-devicons/foundation/original";
+import ThreejsOriginal from "react-devicons/threejs/original";
 import UnrealengineOriginal from "react-devicons/unrealengine/original";
 import UnityOriginal from "react-devicons/unity/original";
 import MatlabOriginal from "react-devicons/matlab/original";
@@ -372,7 +373,8 @@ export const skills = [
       { name: "Next.js", icon: NextjsOriginal },
       { name: "Bootstrap", icon: BootstrapOriginal },
       { name: "Material UI", icon: MaterialuiOriginal },
-      { name: "Foundation", icon: FoundationOriginal },
+      { name: "Three.js", icon: ThreejsOriginal  },
+
     ],
   },
   {

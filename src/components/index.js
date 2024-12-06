@@ -1,6 +1,6 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 
-import Preloader from './Preloader/Pre';
+import Preloader from './preloader/Pre';
 
 // import Hero from "./Hero backup";
 import Hero from "./Hero";
@@ -25,6 +25,9 @@ import Resume from './Resume';
 
 import ScrollToSection from './util/ScrollToSection';
 import ScrollToTop from './util/ScrollToTop';
+
+import PhotoSections from './photos/PhotoSections';
+import PhotoDisplaySection from './photos/PhotoDisplaySection';
 
 
 export {
@@ -51,6 +54,9 @@ export {
   Reveal,
 
   ScrollToSection,
-  ScrollToTop
+  ScrollToTop,
+
+  PhotoSections,
+  PhotoDisplaySection
 
 };

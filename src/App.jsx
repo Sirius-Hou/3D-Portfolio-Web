@@ -12,6 +12,8 @@ import {
   Projects,
   Resume,
   StarsCanvas,
+  PhotoSections,
+  PhotoDisplaySection,
 } from "./components";
 import ParticleBackground from "./components/ParticleBackground";
 import { useState, useEffect } from "react";
@@ -45,7 +47,7 @@ const MainPage = () => {
 };
 
 const App = () => {
-  const [load, updateLoad] = useState(false); // RESET THIS TO TRUE WHEN DONE TESTING!!!
+  const [load, updateLoad] = useState(true); // RESET THIS TO TRUE WHEN DONE TESTING!!!
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -76,6 +78,26 @@ const App = () => {
                 element={
                   <div className="min-h-screen relative z-10">
                     <Resume />
+                  </div>
+                }
+              />
+
+              {/* Photography page */}
+              <Route
+                path="/photography"
+                element={
+                  <div className="min-h-screen relative z-10">
+                    <PhotoSections />
+                  </div>
+                }
+              />
+
+              {/* Individual photo section */}
+              <Route
+                path="/photography/:section"
+                element={
+                  <div className="min-h-screen relative z-10">
+                    <PhotoDisplaySection />
                   </div>
                 }
               />

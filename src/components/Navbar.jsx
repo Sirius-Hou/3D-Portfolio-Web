@@ -56,16 +56,16 @@ const Navbar = () => {
           <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Sirius&nbsp;
-            <span className="sm:block hidden"> | Portfolio</span>
+            <span className="lg:block hidden"> | Portfolio</span>
           </p>
         </Link>
   
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row gap-5">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-react-blue" : "text-secondary"
+                hovered === nav.title ? "text-react-blue" : "text-secondary"
               } hover:text-react-blue text-[18px] font-medium cursor-pointer relative`}
               onMouseEnter={() => setHovered(nav.title)}
               onMouseLeave={() => setHovered(null)}

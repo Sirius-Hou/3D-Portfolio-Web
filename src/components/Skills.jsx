@@ -43,7 +43,7 @@ const Skills = () => {
           viewport={{ once: true, amount: 0.25 }} // Trigger animation only when each category comes into view
           className="mb-12"
         >
-          <h3 className="text-2xl font-semibold text-left mb-4">{category.category}</h3>
+          <h3 className="text-lg md:text-2xl font-semibold text-left mb-4">{category.category}</h3>
           <div className="flex flex-wrap gap-3 justify-center">
             {category.skills.map((skill, index) => (
               <SkillCard key={skill.name} index={index} name={skill.name} Icon={skill.icon} />

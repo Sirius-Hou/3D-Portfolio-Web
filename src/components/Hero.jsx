@@ -29,14 +29,18 @@ const Hero = () => {
             <h1 className={`${styles.heroSubText} text-white`}>
               Hello, it's me <br />
             </h1>
-            <h1 className={`text-[#53C1DE] ${styles.heroHeadText}`}>Sirius Hou</h1>
+            <h1
+              className={`bg-gradient-to-br from-[#3465eb] to-[#e64555] bg-clip-text text-transparent font-protest text-[60px] sm:text-[80px] lg:text-[100px]`}
+            >
+              Sirius Hou
+            </h1>
 
             <div className={`${styles.heroSubText} text-white`}>
               And I'm a{" "}
             </div>
             <span className="text-2xl font-extrabold mt-2 text-[#53C1DE] custom-typewriter">
-                <Type />
-              </span>
+              <Type />
+            </span>
 
             <p className="mt-4 text-white-100 text-lg leading-7">
               University of Waterloo Undergrad student <br />

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-protest {
+  font-family: "Protest Revolution", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;

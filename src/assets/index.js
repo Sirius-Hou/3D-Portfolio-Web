@@ -30,8 +30,12 @@ import christie from "./company/Christie-Blue-Logo-Low-Res.png";
 // import christie from "./company/Christie-Black-Logo-Low-Res.png";
 // import christie from "./company/Christie-Logo.svg";
 import ford from "./company/ford.svg";
-import bhvr from "./company/Behaviour_Interactive-Logo.wine.svg";
+// import bhvr from "./company/Behaviour_Interactive-Logo.wine.svg";
+import bhvr from "./company/Behaviour_Interactive-Logo.wine.png";
 import uw from "./company/UniversityOfWaterloo_logo_vert_rgb.png";
+// import uw from "./company/UniversityOfWaterloo_logo_vert_rgb2.jpg";
+
+import aboutPhoto from "./sirius.jpg";
 
 // Project Images
 import carrent from "./carrent.png";
@@ -44,6 +48,7 @@ import WLP4 from "./projects/WLP4.png";
 import YADA from "./projects/YADA.png";
 
 export {
+  aboutPhoto,
   logo,
   backend,
   creator,
