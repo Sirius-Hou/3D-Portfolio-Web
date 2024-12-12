@@ -17,6 +17,7 @@ const Projects = () => {
             description={project.description}
             modalContent={project.modalContent}
             source_code_link={project.source_code_link}
+            detail_page_link={project.detail_page_link}
             image={project.image}
             tags={project.tags}
           />

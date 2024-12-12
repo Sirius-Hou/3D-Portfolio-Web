@@ -8,6 +8,7 @@ import Reveal from "../util/Reveal";
 const Project = ({
   modalContent,
   source_code_link,
+  detail_page_link,
   description,
   image,
   name,
@@ -125,12 +126,13 @@ const Project = ({
       {/* Modal */}
       <ProjectModal
         modalContent={modalContent}
-        projectLink={source_code_link}
+        projectLink={detail_page_link}
         setIsOpen={setIsOpen}
         isOpen={isOpen}
         imgSrc={image}
         title={name}
         // tech={tags.map((tag) => tag.name)}
+        code={source_code_link}
         tech={tags}
       />
     </>

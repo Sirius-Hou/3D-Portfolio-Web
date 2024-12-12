@@ -224,9 +224,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "UW – Research Assistant (Around Ear Gestures for VR Locomotion)",
+    name: "UW - Research Assistant (Around Ear Gestures for VR Locomotion)",
     description:
-      "Collaborated with Prof. Jian Zhao to design and implement a VR game in Unity with mazes and interactable objects to test around-ear bare-hand gestures for VR locomotion, improving accessibility for seated and lower-limb disabled users.",
+      "Designed and implemented a VR game utilizing around-ear gestures to enhance locomotion accessibility and interaction for users with lower-limb disabilities.",
     modalContent: [
       "Collaborated with Prof. Jian Zhao to design and implement a VR game in Unity with mazes and interactable objects to test around-ear bare-hand gestures for VR locomotion.",
       "Improved accessibility for seated and lower-limb disabled users.",
@@ -241,6 +241,7 @@ const projects = [
     ],
     image: VR,
     source_code_link: "https://github.com/",
+    detail_page_link: "https://long-sandalwood-8c3.notion.site/UW-Research-Assistant-Around-Ear-Gestures-for-VR-Locomotion-1598d8ce55f48022ac43f51e5ae68838",
   },
   {
     name: "Collaborative Whiteboard Android App (YADA)",
@@ -258,6 +259,7 @@ const projects = [
     ],
     image: YADA,
     source_code_link: "https://git.uwaterloo.ca/s26nadee/cs346-project.git",
+    detail_page_link: "https://long-sandalwood-8c3.notion.site/Collaborative-Whiteboard-Android-App-YADA-1598d8ce55f480a3a64fe1c92abfdb31",
   },
   {
     name: "The Game of ChamberCrawler3000+ (CC3K+)",
@@ -275,6 +277,7 @@ const projects = [
     ],
     image: CC3K,
     source_code_link: "https://github.com/Sirius-Hou/CC3K",
+    detail_page_link: "",
   },
   {
     name: "UW Course Scheduler (UWCS)",
@@ -295,6 +298,7 @@ const projects = [
     ],
     image: UWCS,
     source_code_link: "https://github.com/",
+    detail_page_link: "",
   },
   {
     name: "WLP4 (Simplified C Language) Compiler Project",
@@ -311,6 +315,7 @@ const projects = [
     ],
     image: WLP4,
     source_code_link: "https://github.com/",
+    detail_page_link: "",
   },
 ];
 
