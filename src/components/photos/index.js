@@ -9,14 +9,14 @@ export const sectionCoverPhotos = [
     name: "Animals",
     url: "https://storage.googleapis.com/sh-imgix/sections/animals.jpg"
   },
-  {
-    name: "City",
-    url: "https://storage.googleapis.com/sh-imgix/sections/nature.png"
-  },
-  {
-    name: "Travel",
-    url: "https://storage.googleapis.com/sh-imgix/sections/animals.jpg"
-  },
+  // {
+  //   name: "City",
+  //   url: "https://storage.googleapis.com/sh-imgix/sections/nature.png"
+  // },
+  // {
+  //   name: "Travel",
+  //   url: "https://storage.googleapis.com/sh-imgix/sections/animals.jpg"
+  // },
 
 ]
 

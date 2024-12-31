@@ -258,7 +258,7 @@ const projects = [
       { name: "Jetpack Compose", color: "pink-text-gradient" },
     ],
     image: YADA,
-    source_code_link: "https://git.uwaterloo.ca/s26nadee/cs346-project.git",
+    source_code_link: "https://github.com/Sirius-Hou/Collaborative-Whiteboard",
     detail_page_link: "https://long-sandalwood-8c3.notion.site/Collaborative-Whiteboard-Android-App-YADA-1598d8ce55f480a3a64fe1c92abfdb31",
   },
   {
@@ -277,7 +277,7 @@ const projects = [
     ],
     image: CC3K,
     source_code_link: "https://github.com/Sirius-Hou/CC3K",
-    detail_page_link: "",
+    detail_page_link: "https://long-sandalwood-8c3.notion.site/The-Game-of-Chamber-Crawler-3000-CC3K-16c8d8ce55f480e8ae14e061187a8282",
   },
   {
     name: "UW Course Scheduler (UWCS)",
@@ -297,8 +297,8 @@ const projects = [
       { name: "OpenAI API", color: "pink-text-gradient" },
     ],
     image: UWCS,
-    source_code_link: "https://github.com/",
-    detail_page_link: "",
+    source_code_link: "https://github.com/Sirius-Hou/UW-Course-Scheduler",
+    detail_page_link: "https://long-sandalwood-8c3.notion.site/UW-Course-Scheduler-16c8d8ce55f4800d8677e5ce2381a374",
   },
   {
     name: "WLP4 (Simplified C Language) Compiler Project",
@@ -339,6 +339,7 @@ import BootstrapOriginal from "react-devicons/bootstrap/original";
 import MaterialuiOriginal from "react-devicons/materialui/original";
 import FoundationOriginal from "react-devicons/foundation/original";
 import ThreejsOriginal from "react-devicons/threejs/original";
+import QtOriginal from "react-devicons/qt/original";
 import UnrealengineOriginal from "react-devicons/unrealengine/original";
 import UnityOriginal from "react-devicons/unity/original";
 import MatlabOriginal from "react-devicons/matlab/original";
@@ -379,6 +380,7 @@ export const skills = [
       { name: "Bootstrap", icon: BootstrapOriginal },
       { name: "Material UI", icon: MaterialuiOriginal },
       { name: "Three.js", icon: ThreejsOriginal  },
+      { name: "Qt", icon: QtOriginal  },
 
     ],
   },
