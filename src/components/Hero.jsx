@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import Type from "./Type";
-import { SectionWrapper } from "../hoc";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -50,43 +50,45 @@ const Hero = () => {
 
             {/* Social Icons */}
             <div className="flex space-x-4 mt-5">
-              <a
+              <GradientShadowButton
                 href="https://github.com/Sirius-Hou"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition duration-300 transform hover:bg-[#53C1DE] hover:scale-105"
-              >
-                <FaGithub className="text-gray-800 text-2xl" />
-              </a>
-              <a
+                icon={<FaGithub className="text-2xl" />}
+              />
+              <GradientShadowButton
                 href="https://www.linkedin.com/in/sirius-hou-a40b21239/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition duration-300 transform hover:bg-[#53C1DE] hover:scale-105"
-              >
-                <FaLinkedin className="text-gray-800 text-2xl" />
-              </a>
-              <a
+                icon={<FaLinkedin className="text-2xl" />}
+              />
+              <GradientShadowButton
                 href="mailto:siriushyc@gmail.com?subject=Glad%20to%20Connect!&body=Hi%20Sirius,%0D%0A%0D%0AI%20hope%20this%20email%20finds%20you%20well.%20I%20recently%20came%20across%20your%20portfolio%20and%20would%20love%20to%20connect%20with%20you.%0D%0A%0D%0AIf%20you%20have%20some%20time,%20I%20would%20like%20to%20ask%20you%20a%20few%20questions%20about%20your%20work%20and%20experience.%0D%0A%0D%0ALooking%20forward%20to%20hearing%20from%20you!%0D%0A%0D%0ABest%20regards,%0D%0A[Your%20Name]"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-lg transition duration-300 transform hover:bg-[#53C1DE] hover:scale-105"
-              >
-                <MdEmail className="text-gray-800 text-2xl" />
-              </a>
+                icon={<MdEmail className="text-2xl" />}
+              />
             </div>
 
             {/* View Resume Button */}
-            <div className="relative mt-5">
+            {/* <div className="relative mt-5">
               <a
                 href="/resume"
                 className="inline-block px-6 py-2 text-lg font-bold text-white bg-gradient-to-r from-[#2AA9DF] to-[#AE0CA7] rounded-full transition transform hover:scale-105"
               >
                 View Resume
               </a>
+            </div> */}
+
+            {/* View Resume Button with Gradient Effect */}
+            <div className="group relative w-fit mt-5">
+              <Link
+                to="/resume"
+                className="relative z-10 flex items-center justify-center rounded-full bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110"
+              >
+                <span className="block rounded-full bg-slate-950 px-6 py-2 font-semibold text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80">
+                  View Resume
+                </span>
+              </Link>
+              <span className="pointer-events-none absolute -inset-4 z-0 transform-gpu rounded-full bg-gradient-to-br from-indigo-500 to-fuchsia-500 opacity-10 blur-[20px] transition-all duration-300 group-hover:opacity-30 group-active:opacity-50" />
             </div>
           </div>
         </div>
       </div>
-
 
       {/* Full-Screen Background for 3D Computer Model */}
       <div className="absolute inset-0 w-full h-full">
@@ -106,6 +108,24 @@ const Hero = () => {
         </a>
       </div>
     </section>
+  );
+};
+
+const GradientShadowButton = ({ href, icon }) => {
+  return (
+    <div className="group relative w-fit transition-transform duration-300 active:scale-95">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="relative z-10 flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-fuchsia-500 p-0.5 duration-300 group-hover:scale-110"
+      >
+        <span className="block flex items-center justify-center w-11 h-11 rounded-full bg-slate-950 text-slate-100 duration-300 group-hover:bg-slate-950/50 group-hover:text-slate-50 group-active:bg-slate-950/80">
+          {icon}
+        </span>
+      </a>
+      <span className="pointer-events-none absolute -inset-4 z-0 transform-gpu rounded-full bg-gradient-to-br from-indigo-500 to-fuchsia-500 opacity-10 blur-xl transition-all duration-300 group-hover:opacity-30 group-active:opacity-50" />
+    </div>
   );
 };
 

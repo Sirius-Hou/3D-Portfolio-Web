@@ -62,8 +62,8 @@ const Project = ({
             src={image}
             alt={`An image of the ${name} project.`}
             style={{
-              width: hovered ? "90%" : "88%",
-              rotate: hovered ? "2deg" : "0deg",
+              width: hovered ? "95%" : "90%",
+              // rotate: hovered ? "0deg" : "0deg",
             }}
             className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[20px] transition-all rounded"
           />
@@ -113,12 +113,12 @@ const Project = ({
             <p className="text-zinc-300 leading-relaxed">
               {description}
             </p>
-            <span
-              className="inline-block text-sm text-indigo-300 cursor-pointer"
-              onClick={() => setIsOpen(true)}
+            <Link
+              to={detail_page_link}
+              className="inline-block text-sm text-indigo-300 cursor-pointer hover:underline"
             >
               Learn more {">"}
-            </span>
+            </Link>
           </Reveal>
         </div>
       </motion.div>

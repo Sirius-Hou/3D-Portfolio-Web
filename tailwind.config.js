@@ -21,8 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
-        // "hero-pattern": "url('/src/assets/genji2.jpg')",
-        // "hero-pattern": "url('/src/assets/testbg.jpg')",
+        // "hero-pattern": "url('/src/assets/genji.jpg')",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

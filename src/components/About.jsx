@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ReactMarkdown from "react-markdown";
 
 import { styles } from "../styles";
-import { services } from "../constants";
+// import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { aboutPhoto } from "../assets";

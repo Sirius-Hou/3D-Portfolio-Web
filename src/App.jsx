@@ -5,6 +5,7 @@ import {
   ScrollToTop,
   About,
   Contact,
+  Footer,
   Experience,
   Hero,
   Navbar,
@@ -102,6 +103,8 @@ const App = () => {
                 }
               />
             </Routes>
+
+            <Footer />
           </>
         )}
       </div>

@@ -1,65 +1,15 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   christie,
   ford,
   bhvr,
   uw,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+
   CC3K,
   UWCS,
   VR,
   WLP4,
   YADA,
 } from "../assets";
-
-// export const navLinks = [
-//   {
-//     id: "about",
-//     title: "About",
-//   },
-//   {
-//     id: "work",
-//     title: "Work",
-//   },
-//   {
-//     id: "projects",
-//     title: "Projects",
-//   },
-//   {
-//     id: "contact",
-//     title: "Contact",
-//   },
-//   {
-//     id: "resume",
-//     title: "Resume",
-//   },
-//   {
-//     id: "photography",
-//     title: "Photography",
-//   },
-// ];
 
 export const navLinks = [
   { id: "home", title: "Home", path: "/" },
@@ -71,114 +21,38 @@ export const navLinks = [
   { id: "photography", title: "Photography", path: "/photography" }
 ];
 
-
-const services = [
-  {
-    title: "Software Developer",
-    icon: web,
-  },
-  {
-    title: "Game Programmer",
-    icon: mobile,
-  },
-  {
-    title: "Full-Stack Developer",
-    icon: backend,
-  },
-  {
-    title: "VR Developer",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
 const experiences = [
   {
     title: "Application Software Developer (C++)",
     company_name: "Christie Digital Systems",
     icon: christie,
     iconBg: "#383E56",
-    date: "Sep 2024 ~ Present",
+    date: "Sep - Dec 2024",
     points: [
-      "Developed a black level correction algorithm with MATLAB to address brightness and color inconsistencies in laser projectors; Integrated into Hawkeye calibration software using C++ and Qt framework, improving the color accuracy by over 50%.",
-      "Enhanced Hawkeye's web UI using JavaScript to add dynamic control sliders for real-time RGB adjustments, streamlined the calibration process and significantly improved user experience. (client commented “intuitive and convenient to use”)",
+      "Developed a black level uniformity correction algorithm with MATLAB to address brightness and color inconsistencies in laser projectors; Integrated into Hawkeye calibration software using C++ and Qt framework, improving the color accuracy by over 30%.",
+      "Enhanced Hawkeye’s web UI (QT/JavaScript) by adding dynamic control sliders for real-time RGB laser drive level adjustments.",
     ],
   },
   {
-    title: "Software Developer (Data Collection Platform)",
+    title: "Embedded Software Developer (Data Collection Platform)",
     company_name: "Ford Company of Canada Limited",
     icon: ford,
     iconBg: "#E6DEDD",
-    date: "Jan 2024 ~ Apr 2024",
+    date: "Jan - Apr 2024",
     points: [
-      "Maintained codebase for FNV4 Data Collection Platform using C++, improved integration with real-time signal processing systems.",
-      "Developed a multi-threaded data ingestion service that optimized data flow from vehicle sensors, reduced processing latency by 23%.",
-      "Built a robust testing framework using Google Test and Google Mock, covering over 90% of the platform’s core modules and ensuring stability during the transition from FNV3 to FNV4 architectures.",
+      "Maintained the FNV4 Data Collection Platform's C++ codebase, improved integration with Autosar Adaptive and SOA-based systems while optimizing CCS privacy controls to ensure regulatory compliance, reduced data scrubbing latency by 15%.",
+      "Developed a multi-threaded data ingestion pipeline with JavaScript sandboxing to handle safe execution of over 1,000 concurrent intents, optimizing resource management which reduced vehicle sensor data processing latency by 23%.",
     ],
   },
   {
-    title: "Software Engineer (Unreal Engine Tool Dev)",
+    title: "Software Engineer (Dead by Daylight Project)",
     company_name: "Behaviour Interactive",
     icon: bhvr,
     iconBg: "#383E56",
-    date: "May 2023 ~ Aug 2023",
+    date: "May - Aug 2023",
     points: [
-      "Developed Unreal Engine components using C++ for real-time, in-editor actor collision detection with customizable visual indicators, allowing designers to visualize collisions without launching the game, streamlined level design and boosted team productivity by ~40%.",
-      "Optimized a custom Unreal Engine plugin (Tile Editor) to automate the conversion of over 700 game scene tiles from blueprints to levels, supporting advanced foliage editing, saving over 100 hours of manual work and boosting design team efficiency by ~30%.",
+      "Developed Unreal Engine components using C++ for real-time, in-editor actor collision detection with customizable visual indicators, streamlined level design and boosted team productivity by ~40%.",
+      "Optimized a custom Unreal Engine plugin (Tile Editor) to automate the conversion of over 700 game scene tiles from blueprints to levels, which saved over 100 hours of manual work and boosting design team efficiency by ~30%.",
     ],
   },
   {
@@ -186,7 +60,7 @@ const experiences = [
     company_name: "University of Waterloo",
     icon: uw,
     iconBg: "#E6DEDD",
-    date: "Aug 2022 ~ Dec 2022",
+    date: "Aug - Dec 2022",
     points: [
       "Performed UI and API quality assurance tests for the Android SES application, identifying and reporting bugs for timely resolution.",
       "Constructed C++ configuration scripts for the auto-grading system (Lint R) to automated assignment assessments and feedback.",
@@ -320,7 +194,6 @@ const projects = [
 ];
 
 
-
 import CplusplusOriginal from "react-devicons/cplusplus/original";
 import COriginal from "react-devicons/c/original";
 import CsharpOriginal from "react-devicons/csharp/original";
@@ -332,6 +205,7 @@ import JavascriptOriginal from "react-devicons/javascript/original";
 import MarkdownOriginal from "react-devicons/markdown/original";
 import Html5Original from "react-devicons/html5/original";
 import Css3Original from "react-devicons/css3/original";
+
 import ReactOriginalWordmark from "react-devicons/react/original-wordmark";
 import NodejsOriginalWordmark from "react-devicons/nodejs/original-wordmark";
 import NextjsOriginal from "react-devicons/nextjs/original";
@@ -340,6 +214,11 @@ import MaterialuiOriginal from "react-devicons/materialui/original";
 import FoundationOriginal from "react-devicons/foundation/original";
 import ThreejsOriginal from "react-devicons/threejs/original";
 import QtOriginal from "react-devicons/qt/original";
+import NumpyOriginal from "react-devicons/numpy/original";
+import PandasOriginal from "react-devicons/pandas/original";
+import PytorchOriginal from "react-devicons/pytorch/original";
+import SeleniumOriginal from "react-devicons/selenium/original";
+
 import UnrealengineOriginal from "react-devicons/unrealengine/original";
 import UnityOriginal from "react-devicons/unity/original";
 import MatlabOriginal from "react-devicons/matlab/original";
@@ -380,7 +259,11 @@ export const skills = [
       { name: "Bootstrap", icon: BootstrapOriginal },
       { name: "Material UI", icon: MaterialuiOriginal },
       { name: "Three.js", icon: ThreejsOriginal  },
-      { name: "Qt", icon: QtOriginal  },
+      { name: "Qt", icon: QtOriginal  }, 
+      { name: "Numpy", icon: NumpyOriginal  },
+      { name: "Pandas", icon: PandasOriginal  },
+      { name: "Pytorch", icon: PytorchOriginal  },
+      { name: "Selenium", icon: SeleniumOriginal  },
 
     ],
   },
@@ -404,4 +287,4 @@ export const skills = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, testimonials, projects };

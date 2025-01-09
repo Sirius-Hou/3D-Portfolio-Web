@@ -1,46 +1,37 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 
 import Preloader from './preloader/Pre';
-
-// import Hero from "./Hero backup";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
-import Tech from "./Tech";
 import Skills from "./Skills";
 import Experience from "./Experience";
 import Works from "./Works";
-import Feedbacks from "./Feedbacks";
+import Projects from './projects/Projects';
 import Contact from "./Contact";
+import Resume from './Resume';
+import PhotoSections from './photos/PhotoSections';
+import PhotoDisplaySection from './photos/PhotoDisplaySection';
 import CanvasLoader from "./Loader";
-// import Projects from "./Projects";
+import Footer from "./Footer";
 
 import Chip from "./util/Chip";
 import SectionHeader from "./util/SectionHeader";
 import Reveal from './util/Reveal';
 
-import Projects from './projects/Projects';
-
-import Resume from './Resume';
-
 import ScrollToSection from './util/ScrollToSection';
 import ScrollToTop from './util/ScrollToTop';
-
-import PhotoSections from './photos/PhotoSections';
-import PhotoDisplaySection from './photos/PhotoDisplaySection';
-
 
 export {
   Preloader,
   Hero,
   Navbar,
   About,
-  Tech,
   Skills,
   Experience,
   Works,
-  Feedbacks,
   Contact,
+  Footer,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 
@@ -48,6 +39,8 @@ export {
   StarsCanvas,
   Projects,
   Resume,
+  PhotoSections,
+  PhotoDisplaySection,
 
   Chip,
   SectionHeader,
@@ -55,8 +48,4 @@ export {
 
   ScrollToSection,
   ScrollToTop,
-
-  PhotoSections,
-  PhotoDisplaySection
-
 };
