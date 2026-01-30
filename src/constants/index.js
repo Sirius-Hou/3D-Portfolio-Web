@@ -58,6 +58,17 @@ const experiences = [
     ],
   },
   {
+    title: "Research Assistant (URA)",
+    company_name: "University of Waterloo",
+    icon: uw,
+    iconBg: "#E6DEDD",
+    date: "Jul - Dec 2024",
+    points: [
+      "Collaborated with Prof. Jian Zhao and designed VR scenes in Unity with mazes and interactable objects to test around-ear gestures for VR locomotion, improving accessibility for seated and lower-limb disabled users.",
+      "Programmed VR features in C#, including locomotion mechanics, humanoid model rigging, animation, and interactions with game objects, enhancing the immersive gameplay experience.",
+    ],
+  },
+  {
     title: "Software Engineer (Dead by Daylight Project)",
     company_name: "Behaviour Interactive",
     icon: bhvr,
