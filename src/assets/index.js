@@ -7,6 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import sidefx from "./company/sidefx1.png";
+// import houdini from "./tech/houdini.svg";
+import houdini from "./tech/houdini1.png";
+import aws from "./tech/aws.svg";
+
 // import christie from "./company/Christie-Black-Logo-Low-Res.png";
 // import christie from "./company/Christie-Logo.svg";
 import christie from "./company/Christie-Blue-Logo-Low-Res.png";
@@ -39,6 +44,7 @@ export {
   menu,
   close,
 
+  sidefx,
   christie,
   ford,
   bhvr,
@@ -49,4 +55,7 @@ export {
   VR,
   WLP4,
   YADA,
+
+  houdini,
+  aws,
 };

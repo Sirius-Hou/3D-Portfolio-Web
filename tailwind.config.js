@@ -20,12 +20,14 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
-        // "hero-pattern": "url('/src/assets/genji.jpg')",
+        // "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/genji.jpg')",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         protest: ["Protest Revolution", "sans-serif"],
+        tinos: ["Tinos", "sans-serif"],
+        merriweather: ["Merriweather", "sans-serif"],
       },
       fontSize: {
         "2xl": "32px",

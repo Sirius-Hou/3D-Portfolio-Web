@@ -7,20 +7,20 @@ function Pre({ load }) {
       <div className="loading-container">
         <div className="loading-text">
           {/* FONT PROTEST STYLE */}
-          {/* <span className="font-protest">S</span>
-          <span className="font-protest">I</span>
-          <span className="font-protest">R</span>
-          <span className="font-protest">I</span>
-          <span className="font-protest">U</span>
-          <span className="font-protest">S</span> */}
+          <span className="font-merriweather italic">S</span>
+          <span className="font-merriweather italic">I</span>
+          <span className="font-merriweather italic">R</span>
+          <span className="font-merriweather italic">I</span>
+          <span className="font-merriweather italic">U</span>
+          <span className="font-merriweather italic">S</span>
 
           {/* NORMAL FONT STYLE */}
-          <span>S</span>
+          {/* <span>S</span>
           <span>I</span>
           <span>R</span>
           <span>I</span>
           <span>U</span>
-          <span>S</span>
+          <span>S</span> */}
         </div>
         <div className="underline"></div>
       </div>

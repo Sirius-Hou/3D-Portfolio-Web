@@ -1,4 +1,5 @@
 import {
+  sidefx,
   christie,
   ford,
   bhvr,
@@ -22,6 +23,18 @@ export const navLinks = [
 ];
 
 const experiences = [
+  {
+    title: "3D Software Developer",
+    company_name: "SideFX Software",
+    icon: sidefx,
+    iconBg: "#383E56",
+    date: "May - Dec 2025",
+    points: [
+      "Re-architected and implemented the Full Body Inverse Kinematics tool in Houdini with C++ & Python, supported multi-character editing and configuration auto-restoration, reducing rigging errors by ~40% and cutting manual setup time by ~50%.",
+      "Architected custom node UI and internal APIs for Houdini Digital Assets, enabling flexible control shape/color customization for character posing, adopted by 50+ custom tools.",
+      "Engineered the Effect Tool, a modular, user-oriented framework that allows designers to integrate and execute custom APEX solver graphs directly within Houdini without backend coding, cutting design time by ~30%."
+    ],
+  },
   {
     title: "Application Software Developer (C++)",
     company_name: "Christie Digital Systems",
@@ -221,6 +234,8 @@ import SeleniumOriginal from "react-devicons/selenium/original";
 
 import UnrealengineOriginal from "react-devicons/unrealengine/original";
 import UnityOriginal from "react-devicons/unity/original";
+import HoudiniIcon from "../components/icons/HoudiniIcon";
+import AWSIcon from "../components/icons/AWSIcon";
 import MatlabOriginal from "react-devicons/matlab/original";
 import AndroidstudioOriginal from "react-devicons/androidstudio/original";
 import GitOriginal from "react-devicons/git/original";
@@ -232,6 +247,8 @@ import DockerOriginal from "react-devicons/docker/original";
 import LatexOriginal from "react-devicons/latex/original";
 import FigmaOriginal from "react-devicons/figma/original";
 import CanvaOriginal from "react-devicons/canva/original";
+import PostgresqlOriginal from "react-devicons/postgresql/original";
+import MongodbOriginal from "react-devicons/mongodb/original";
 
 export const skills = [
   {
@@ -272,6 +289,10 @@ export const skills = [
     skills: [
       { name: "Unreal Engine", icon: UnrealengineOriginal },
       { name: "Unity", icon: UnityOriginal },
+      { name: "Houdini", icon: HoudiniIcon },
+      { name: "AWS", icon: AWSIcon },
+      { name: "PostgreSQL", icon: PostgresqlOriginal },
+      { name: "MongoDB", icon: MongodbOriginal },
       { name: "Matlab", icon: MatlabOriginal },
       { name: "Android Studio", icon: AndroidstudioOriginal },
       { name: "Git", icon: GitOriginal },
@@ -283,6 +304,7 @@ export const skills = [
       { name: "LaTeX", icon: LatexOriginal },
       { name: "Figma", icon: FigmaOriginal },
       { name: "Canva", icon: CanvaOriginal },
+
     ],
   },
 ];

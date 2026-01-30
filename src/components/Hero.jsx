@@ -30,7 +30,7 @@ const Hero = () => {
               Hello, it's me <br />
             </h1>
             <h1
-              className={`bg-gradient-to-br from-[#3465eb] to-[#e64555] bg-clip-text text-transparent font-protest text-[60px] sm:text-[80px] lg:text-[100px]`}
+              className={`bg-gradient-to-br from-[#3465eb] to-[#e64555] bg-clip-text text-transparent font-merriweather text-[60px] sm:text-[80px] lg:text-[100px] italic`}
             >
               Sirius Hou
             </h1>
@@ -43,9 +43,8 @@ const Hero = () => {
             </span>
 
             <p className="mt-4 text-white-100 text-lg leading-7">
-              University of Waterloo Undergrad student <br />
+              University of Waterloo<br />
               4th-Year Computer Science | AI specialization <br />
-              Web & App Developer
             </p>
 
             {/* Social Icons */}
