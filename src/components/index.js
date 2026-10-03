@@ -1,6 +1,6 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 
-import Preloader from './preloader/Pre';
+import Preloader from './Preloader/Pre';
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import About from "./About";
