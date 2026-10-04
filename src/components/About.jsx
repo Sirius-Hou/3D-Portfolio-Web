@@ -39,7 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 
 const markdownContent = ` 
-👋 **Hi there!** My name is **Sirius Hou**, and I'm a **4th-year Computer Science** student at the **University of
+👋 **Hi there!** My name is **Sirius Hou TEST**, and I'm a **4th-year Computer Science** student at the **University of
 Waterloo**, specializing in **Artificial Intelligence**.  
 
 &nbsp;  
